@@ -19,7 +19,7 @@
 
   
   <!-- CSSSTART -->
-	<link rel="stylesheet" href="emanote-compiled-a97087877073a4e7f2b00b7280319301.css" />
+	<link rel="stylesheet" href="emanote-compiled-62e10c106ee25bca5f6840ffe1062884.css" />
   <!-- CSSEND -->
 
   <!-- Heist error element -->
@@ -185,6 +185,26 @@
     <p class='mb-3'>
       Notebook template for <a href='https://github.com/srid/emanote' class='text-red-600 hover:underline' target='_blank' rel='noopener'>https://github.com/srid/emanote</a> - to easily get started with publishing GitHub Pages website using Emanote out of plain-text notes.
     </p>
+  <h2 id='using-this-template' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Using this template</h2>
+    <p class='mb-3'>
+      CLick the “Use this template” green button on Github, and in the resulting repository make the following modifications,
+    </p>
+  
+    <ul class='my-3 ml-6 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          Change <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>index.yaml</code> to use your site’s title (and set the same in <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>index.md</code>)
+        </li>
+      
+        <li>
+          Change <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>.deploy/github/index.yaml</code> to change the <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>baseUrl</code> (if your repository is named differently or you are using a CNAME). If you are using CNAME (with no sub-path), then you may get rid of the <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>.deploy/github</code> layer entirely (be sure to update <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>publish.yaml</code> accordingly).
+        </li>
+      
+        <li>
+          Delete <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>README.md</code> (this file)
+        </li>
+      
+    </ul>
   
 </article>
             

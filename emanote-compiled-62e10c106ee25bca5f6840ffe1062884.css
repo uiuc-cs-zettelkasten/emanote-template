@@ -56,6 +56,10 @@ body {
   font-family: inherit;
   line-height: inherit;
 }
+code {
+  font-size: 1em;
+  font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
 html {
   -webkit-text-size-adjust: 100%;
   font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
@@ -63,6 +67,13 @@ html {
 }
 h1 {
   margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+h1, p, h2 {
+  margin: 0;
+}
+h1, h2 {
   font-size: inherit;
   font-weight: inherit;
 }
@@ -155,6 +166,10 @@ ul {
   --tw-bg-opacity: 1;
   background-color: rgba(254, 226, 226, var(--tw-bg-opacity));
 }
+.bg-gray-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(55, 65, 81, var(--tw-bg-opacity));
+}
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
@@ -169,6 +184,12 @@ ul {
 }
 .rounded {
   border-radius: 0.25rem;
+}
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+.inline-block {
+  display: inline-block;
 }
 .inline {
   display: inline;
@@ -283,12 +304,22 @@ ul {
   font-size: 3rem;
   line-height: 1;
 }
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
 .leading-relaxed {
   line-height: 1.625;
+}
+.list-inside {
+  list-style-position: inside;
+}
+.list-decimal {
+  list-style-type: decimal;
 }
 .mx-auto {
   margin-left: auto;
@@ -305,6 +336,10 @@ ul {
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 .mt-2 {
   margin-top: 0.5rem;
@@ -323,6 +358,12 @@ ul {
 }
 .mb-3 {
   margin-bottom: 0.75rem;
+}
+.mt-6 {
+  margin-top: 1.5rem;
+}
+.ml-6 {
+  margin-left: 1.5rem;
 }
 .mt-8 {
   margin-top: 2rem;
@@ -368,6 +409,10 @@ ul {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -410,6 +455,10 @@ ul {
 .text-red-600 {
   --tw-text-opacity: 1;
   color: rgba(220, 38, 38, var(--tw-text-opacity));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 .text-gray-600 {
   --tw-text-opacity: 1;
